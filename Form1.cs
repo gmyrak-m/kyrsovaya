@@ -19,7 +19,6 @@ namespace kyrsovaya
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
         }
 
         private void Button1_Click(object sender, EventArgs e)
@@ -33,7 +32,7 @@ namespace kyrsovaya
         private void Button2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            (new Form2()).ShowDialog();
+            Program.form2.Show();
         }
     }
 }

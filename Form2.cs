@@ -30,5 +30,16 @@ namespace kyrsovaya
         {
             Application.Exit();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Program.form1.Show();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
