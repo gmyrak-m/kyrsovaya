@@ -11,6 +11,8 @@ namespace kyrsovaya
     {
         public static Form1 form1;
         public static Form2 form2;
+        public static Form3 form3;
+        public static Form4 form4;
 
         /// <summary>
         /// Главная точка входа для приложения.
@@ -24,6 +26,9 @@ namespace kyrsovaya
 
             form1 = new Form1();
             form2 = new Form2();
+            form3 = new Form3();
+            form4 = new Form4();
+
 
             Application.Run(form1);
         }

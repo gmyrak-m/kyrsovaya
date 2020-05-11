@@ -32,14 +32,30 @@ namespace kyrsovaya
         }
 
         private void button2_Click(object sender, EventArgs e)
-        {
-            this.Hide();
+        {            
             Program.form1.Show();
+            this.Hide();
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button7_Click_1(object sender, EventArgs e)
+        {
+            if (radioButton1.Checked)
+            {
+                Program.form3.Show();
+                this.Hide();
+            }
+            else if (radioButton2.Checked)
+            {
+                Program.form4.Show();
+                this.Hide();
+            }
+            else MessageBox.Show("Сделайте выбор");
+            
         }
     }
 }

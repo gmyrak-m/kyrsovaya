@@ -30,9 +30,9 @@ namespace kyrsovaya
         }
 
         private void Button2_Click(object sender, EventArgs e)
-        {
-            this.Hide();
+        {            
             Program.form2.Show();
+            this.Hide();
         }
     }
 }
