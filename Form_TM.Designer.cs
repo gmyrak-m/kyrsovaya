@@ -1,6 +1,6 @@
 ﻿namespace kyrsovaya
 {
-    partial class Form3
+    partial class Form_TM
     {
         /// <summary>
         /// Required designer variable.
@@ -28,19 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_TM));
             this.SuspendLayout();
             // 
-            // Form3
+            // Form_TM
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1000, 625);
             this.MaximumSize = new System.Drawing.Size(1016, 664);
             this.MinimumSize = new System.Drawing.Size(1016, 664);
-            this.Name = "Form3";
+            this.Name = "Form_TM";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form3";
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form3_FormClosed);
+            this.Text = "Form_TM";
             this.ResumeLayout(false);
 
         }

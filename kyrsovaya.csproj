@@ -70,6 +70,36 @@
     <Compile Include="Form4.Designer.cs">
       <DependentUpon>Form4.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form_IKT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_IKT.Designer.cs">
+      <DependentUpon>Form_IKT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_KA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_KA.Designer.cs">
+      <DependentUpon>Form_KA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_OKD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_OKD.Designer.cs">
+      <DependentUpon>Form_OKD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_PSM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_PSM.Designer.cs">
+      <DependentUpon>Form_PSM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_TM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_TM.Designer.cs">
+      <DependentUpon>Form_TM.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -83,6 +113,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form4.resx">
       <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_IKT.resx">
+      <DependentUpon>Form_IKT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_KA.resx">
+      <DependentUpon>Form_KA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_OKD.resx">
+      <DependentUpon>Form_OKD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_PSM.resx">
+      <DependentUpon>Form_PSM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_TM.resx">
+      <DependentUpon>Form_TM.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -107,6 +152,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image1.bmp" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
