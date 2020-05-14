@@ -20,13 +20,6 @@ namespace kyrsovaya
           
         }
 
-        private void LoadFont()
-        {
-            PrivateFontCollection font1 = new PrivateFontCollection();
-            //font1.AddFontFile("rodchenkoctt.ttf");
-            //font1.
-        }
-
         private void Button1_Click(object sender, EventArgs e)
         {
             if (MessageBox.Show("Выйти?", "Выход", MessageBoxButtons.YesNo) == DialogResult.Yes)
@@ -106,17 +99,27 @@ namespace kyrsovaya
 
         private void Button1_MouseHover(object sender, EventArgs e)
         {
-            this.button1.BackgroundImage = ((System.Drawing.Image)(Program.form1.resources.GetObject("button3.BackgroundImage")));
+            button1.Image = Properties.Resources.exit_m;
         }
 
         private void Button1_MouseLeave(object sender, EventArgs e)
         {
-            this.button1.BackgroundImage = ((System.Drawing.Image)(Program.form1.resources.GetObject("button1.BackgroundImage")));
+            button1.Image = Properties.Resources.exit;
         }
 
         private void Form2_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button8_MouseHover(object sender, EventArgs e)
+        {
+            button8.Image = Properties.Resources.back_m;
+        }
+
+        private void button8_MouseLeave(object sender, EventArgs e)
+        {
+            button8.Image = Properties.Resources.back;
         }
     }
 }

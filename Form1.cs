@@ -40,17 +40,29 @@ namespace kyrsovaya
 
         private void Button1_MouseHover(object sender, EventArgs e)
         {
-            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
+            
+            button1.Image = Properties.Resources.exit_m;
+
         }
 
         private void Button1_MouseLeave(object sender, EventArgs e)
-        {
-            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
+        {            
+            button1.Image = Properties.Resources.exit;
         }
 
         private void Button3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_MouseHover(object sender, EventArgs e)
+        {
+            button2.Image = Properties.Resources.next_m;
+        }
+
+        private void button2_MouseLeave(object sender, EventArgs e)
+        {
+            button2.Image = Properties.Resources.next;
         }
     }
 }

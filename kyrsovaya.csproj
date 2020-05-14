@@ -156,5 +156,65 @@
   <ItemGroup>
     <None Include="Resources\Image1.bmp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\назад.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\animation_tasks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\animation_tasks_m.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\autocad_tasks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\autocad_tasks_m.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back_m.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_next_m.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit_m.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\forward.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\forward_m.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next_m.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\okd_tasks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\okd_tasks_m.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\psm_tasks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\psm_tasks_m.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tm_tasks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tm_tasks_m.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

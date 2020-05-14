@@ -48,11 +48,11 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Moccasin;
-            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Image = global::kyrsovaya.Properties.Resources.exit;
             this.button1.Location = new System.Drawing.Point(12, 12);
             this.button1.Margin = new System.Windows.Forms.Padding(0);
             this.button1.Name = "button1";
@@ -193,16 +193,18 @@
             // 
             // button8
             // 
-            this.button8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button8.BackgroundImage")));
             this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button8.FlatAppearance.BorderSize = 0;
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Location = new System.Drawing.Point(45, 507);
+            this.button8.Image = global::kyrsovaya.Properties.Resources.back;
+            this.button8.Location = new System.Drawing.Point(38, 501);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(84, 85);
+            this.button8.Size = new System.Drawing.Size(91, 91);
             this.button8.TabIndex = 6;
             this.button8.UseVisualStyleBackColor = true;
             this.button8.Click += new System.EventHandler(this.Button8_Click);
+            this.button8.MouseLeave += new System.EventHandler(this.button8_MouseLeave);
+            this.button8.MouseHover += new System.EventHandler(this.button8_MouseHover);
             // 
             // Form2
             // 
@@ -210,7 +212,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(1000, 625);
+            this.ClientSize = new System.Drawing.Size(1000, 626);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.groupBox2);

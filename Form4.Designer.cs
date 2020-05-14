@@ -126,13 +126,14 @@
             this.button7.TabIndex = 5;
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.Button7_Click);
+            this.button7.MouseHover += new System.EventHandler(this.button7_MouseHover);
             // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(1000, 625);
+            this.ClientSize = new System.Drawing.Size(1000, 626);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.groupBox1);
             this.MaximumSize = new System.Drawing.Size(1016, 664);

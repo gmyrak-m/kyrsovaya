@@ -33,5 +33,10 @@ namespace kyrsovaya
             Program.form2.Show();
             this.Hide();
         }
+
+        private void button7_MouseHover(object sender, EventArgs e)
+        {
+           
+        }
     }
 }
