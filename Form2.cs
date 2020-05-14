@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Drawing.Text;
+
 
 namespace kyrsovaya
 {
@@ -16,6 +18,13 @@ namespace kyrsovaya
         {
             InitializeComponent();
           
+        }
+
+        private void LoadFont()
+        {
+            PrivateFontCollection font1 = new PrivateFontCollection();
+            //font1.AddFontFile("rodchenkoctt.ttf");
+            //font1.
         }
 
         private void Button1_Click(object sender, EventArgs e)
