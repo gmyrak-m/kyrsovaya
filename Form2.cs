@@ -94,5 +94,20 @@ namespace kyrsovaya
             Program.form_psm.Show();
             this.Hide();
         }
+
+        private void Button1_MouseHover(object sender, EventArgs e)
+        {
+            this.button1.BackgroundImage = ((System.Drawing.Image)(Program.form1.resources.GetObject("button3.BackgroundImage")));
+        }
+
+        private void Button1_MouseLeave(object sender, EventArgs e)
+        {
+            this.button1.BackgroundImage = ((System.Drawing.Image)(Program.form1.resources.GetObject("button1.BackgroundImage")));
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

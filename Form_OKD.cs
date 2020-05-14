@@ -16,5 +16,22 @@ namespace kyrsovaya
         {
             InitializeComponent();
         }
+
+        private void Button7_Click(object sender, EventArgs e)
+        {
+            Program.form2.Show();
+            this.Hide();
+
+        }
+
+        private void Form_OKD_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void Label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -36,7 +36,7 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.MistyRose;
+            this.button1.BackColor = System.Drawing.Color.Moccasin;
             this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -46,7 +46,7 @@
             this.button1.Location = new System.Drawing.Point(12, 12);
             this.button1.Margin = new System.Windows.Forms.Padding(0);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(98, 93);
+            this.button1.Size = new System.Drawing.Size(97, 95);
             this.button1.TabIndex = 0;
             this.button1.UseMnemonic = false;
             this.button1.UseVisualStyleBackColor = false;
@@ -70,13 +70,15 @@
             // button3
             // 
             this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
-            this.button3.Location = new System.Drawing.Point(196, 12);
+            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.button3.Location = new System.Drawing.Point(136, 12);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(99, 93);
+            this.button3.Size = new System.Drawing.Size(138, 124);
             this.button3.TabIndex = 2;
             this.button3.Text = "button3";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Visible = false;
+            this.button3.Click += new System.EventHandler(this.Button3_Click);
             // 
             // Form1
             // 
