@@ -35,16 +35,18 @@
             // 
             // button7
             // 
-            this.button7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button7.BackgroundImage")));
             this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button7.FlatAppearance.BorderSize = 0;
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Location = new System.Drawing.Point(45, 507);
+            this.button7.Image = global::kyrsovaya.Properties.Resources.back;
+            this.button7.Location = new System.Drawing.Point(38, 500);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(84, 85);
+            this.button7.Size = new System.Drawing.Size(91, 91);
             this.button7.TabIndex = 6;
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.Button7_Click);
+            this.button7.MouseLeave += new System.EventHandler(this.button7_MouseLeave);
+            this.button7.MouseHover += new System.EventHandler(this.button7_MouseHover);
             // 
             // label1
             // 
@@ -63,7 +65,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(1000, 625);
+            this.ClientSize = new System.Drawing.Size(1000, 626);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button7);
             this.MaximumSize = new System.Drawing.Size(1016, 664);

@@ -36,7 +36,12 @@ namespace kyrsovaya
 
         private void button7_MouseHover(object sender, EventArgs e)
         {
-           
+            button7.Image = Properties.Resources.back_m;
+        }
+
+        private void button7_MouseLeave(object sender, EventArgs e)
+        {
+            button7.Image = Properties.Resources.back;
         }
     }
 }

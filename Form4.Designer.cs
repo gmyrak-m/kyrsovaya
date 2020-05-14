@@ -116,16 +116,17 @@
             // 
             // button7
             // 
-            this.button7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button7.BackgroundImage")));
             this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button7.FlatAppearance.BorderSize = 0;
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Location = new System.Drawing.Point(25, 514);
+            this.button7.Image = global::kyrsovaya.Properties.Resources.back;
+            this.button7.Location = new System.Drawing.Point(30, 503);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(84, 85);
+            this.button7.Size = new System.Drawing.Size(91, 93);
             this.button7.TabIndex = 5;
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.Button7_Click);
+            this.button7.MouseLeave += new System.EventHandler(this.button7_MouseLeave);
             this.button7.MouseHover += new System.EventHandler(this.button7_MouseHover);
             // 
             // Form4
