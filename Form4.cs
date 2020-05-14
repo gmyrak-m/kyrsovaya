@@ -27,5 +27,11 @@ namespace kyrsovaya
             Program.form1.Show();
             this.Hide();
         }
+
+        private void Button7_Click(object sender, EventArgs e)
+        {
+            Program.form2.Show();
+            this.Hide();
+        }
     }
 }

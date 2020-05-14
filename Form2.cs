@@ -42,7 +42,7 @@ namespace kyrsovaya
 
         private void button2_Click(object sender, EventArgs e)
         {            
-            Program.form1.Show();
+            Program.form_ikt.Show();
             this.Hide();
         }
 
@@ -65,6 +65,58 @@ namespace kyrsovaya
             }
             else MessageBox.Show("Сделайте выбор");
             
+        }
+
+        private void RadioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button8_Click(object sender, EventArgs e)
+        {
+            Program.form1.Show();
+            this.Hide();
+
+        }
+
+        private void Button3_Click(object sender, EventArgs e)
+        {
+            Program.form_tm.Show();
+            this.Hide();
+
+        }
+
+        private void Button4_Click(object sender, EventArgs e)
+        {
+            Program.form_okd.Show();
+            this.Hide();
+        }
+
+        private void Button5_Click(object sender, EventArgs e)
+        {
+            Program.form_ka.Show();
+            this.Hide();
+        }
+
+        private void Button6_Click(object sender, EventArgs e)
+        {
+            Program.form_psm.Show();
+            this.Hide();
+        }
+
+        private void Button1_MouseHover(object sender, EventArgs e)
+        {
+            this.button1.BackgroundImage = ((System.Drawing.Image)(Program.form1.resources.GetObject("button3.BackgroundImage")));
+        }
+
+        private void Button1_MouseLeave(object sender, EventArgs e)
+        {
+            this.button1.BackgroundImage = ((System.Drawing.Image)(Program.form1.resources.GetObject("button1.BackgroundImage")));
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
