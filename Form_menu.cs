@@ -177,5 +177,16 @@ namespace kyrsovaya
             System.Diagnostics.Process.Start("flash.exe");
 
         }
+
+        private void Button9_MouseHover(object sender, EventArgs e)
+        {
+            button9.Image = Properties.Resources.forward_m;
+        }
+
+        private void Button9_MouseLeave(object sender, EventArgs e)
+        {
+            button9.Image = Properties.Resources.forward;
+        }
     }
 }
+

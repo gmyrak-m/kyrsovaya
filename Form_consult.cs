@@ -123,5 +123,10 @@ namespace kyrsovaya
             Program.form_Consult_PSM.Show();
             this.Hide();
         }
+
+        private void Form_consult_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

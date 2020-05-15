@@ -38,5 +38,10 @@ namespace kyrsovaya
             Program.form_consult.Show();
             this.Hide();
         }
+
+        private void Form_consult_IKT_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

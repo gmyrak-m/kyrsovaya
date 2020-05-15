@@ -38,5 +38,9 @@ namespace kyrsovaya
             button7.Image = Properties.Resources.back;
         }
 
+        private void Label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -45,7 +45,7 @@
             this.button1.Location = new System.Drawing.Point(22, 22);
             this.button1.Margin = new System.Windows.Forms.Padding(0);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(77, 74);
+            this.button1.Size = new System.Drawing.Size(74, 74);
             this.button1.TabIndex = 0;
             this.button1.UseMnemonic = false;
             this.button1.UseVisualStyleBackColor = false;
@@ -68,19 +68,19 @@
             this.button2.MouseLeave += new System.EventHandler(this.button2_MouseLeave);
             this.button2.MouseHover += new System.EventHandler(this.button2_MouseHover);
             // 
-            // Form1
+            // Form_main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(1000, 626);
+            this.ClientSize = new System.Drawing.Size(1000, 625);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Cursor = System.Windows.Forms.Cursors.Default;
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(1016, 664);
             this.MinimumSize = new System.Drawing.Size(1016, 664);
-            this.Name = "Form1";
+            this.Name = "Form_main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Главная";
             this.Load += new System.EventHandler(this.Form1_Load);
