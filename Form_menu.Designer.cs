@@ -148,7 +148,7 @@
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(304, 39);
+            this.radioButton2.Location = new System.Drawing.Point(303, 40);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(14, 13);
             this.radioButton2.TabIndex = 1;
@@ -160,7 +160,7 @@
             // 
             this.radioButton1.BackColor = System.Drawing.Color.Transparent;
             this.radioButton1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.radioButton1.Location = new System.Drawing.Point(51, 39);
+            this.radioButton1.Location = new System.Drawing.Point(51, 40);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(13, 13);
             this.radioButton1.TabIndex = 0;

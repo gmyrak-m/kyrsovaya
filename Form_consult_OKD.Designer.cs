@@ -54,11 +54,12 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.label1.Location = new System.Drawing.Point(75, 190);
+            this.label1.Location = new System.Drawing.Point(75, 212);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(669, 103);
             this.label1.TabIndex = 12;
             this.label1.Text = "Должность: кандидат технических наук, профессор";
+            this.label1.Click += new System.EventHandler(this.Label1_Click);
             // 
             // label2
             // 
