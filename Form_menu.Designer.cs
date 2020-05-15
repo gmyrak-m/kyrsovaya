@@ -1,6 +1,6 @@
 ﻿namespace kyrsovaya
 {
-    partial class Form2
+    partial class Form_menu
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_menu));
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.button6 = new System.Windows.Forms.Button();
@@ -81,68 +81,83 @@
             // 
             // button6
             // 
-            this.button6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button6.BackgroundImage")));
             this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button6.FlatAppearance.BorderSize = 0;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Image = global::kyrsovaya.Properties.Resources.psm_tasks;
             this.button6.Location = new System.Drawing.Point(669, 26);
+            this.button6.Margin = new System.Windows.Forms.Padding(0);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(118, 118);
+            this.button6.Size = new System.Drawing.Size(113, 113);
             this.button6.TabIndex = 4;
-            this.button6.UseVisualStyleBackColor = true;
+            this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.Button6_Click);
+            this.button6.MouseLeave += new System.EventHandler(this.button6_MouseLeave);
+            this.button6.MouseHover += new System.EventHandler(this.button6_MouseHover);
             // 
             // button5
             // 
-            this.button5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button5.BackgroundImage")));
             this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button5.FlatAppearance.BorderSize = 0;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Image = global::kyrsovaya.Properties.Resources.animation_tasks;
             this.button5.Location = new System.Drawing.Point(498, 26);
+            this.button5.Margin = new System.Windows.Forms.Padding(0);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(118, 118);
+            this.button5.Size = new System.Drawing.Size(113, 113);
             this.button5.TabIndex = 3;
-            this.button5.UseVisualStyleBackColor = true;
+            this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.Button5_Click);
+            this.button5.MouseLeave += new System.EventHandler(this.button5_MouseLeave);
+            this.button5.MouseHover += new System.EventHandler(this.button5_MouseHover);
             // 
             // button4
             // 
-            this.button4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button4.BackgroundImage")));
             this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Image = global::kyrsovaya.Properties.Resources.okd_tasks;
             this.button4.Location = new System.Drawing.Point(348, 26);
+            this.button4.Margin = new System.Windows.Forms.Padding(0);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(118, 118);
+            this.button4.Size = new System.Drawing.Size(113, 113);
             this.button4.TabIndex = 2;
-            this.button4.UseVisualStyleBackColor = true;
+            this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.Button4_Click);
+            this.button4.MouseLeave += new System.EventHandler(this.button4_MouseLeave);
+            this.button4.MouseHover += new System.EventHandler(this.button4_MouseHover);
             // 
             // button3
             // 
-            this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
             this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Image = global::kyrsovaya.Properties.Resources.tm_tasks;
             this.button3.Location = new System.Drawing.Point(189, 26);
+            this.button3.Margin = new System.Windows.Forms.Padding(0);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(118, 118);
+            this.button3.Size = new System.Drawing.Size(113, 113);
             this.button3.TabIndex = 1;
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.Button3_Click);
+            this.button3.MouseLeave += new System.EventHandler(this.button3_MouseLeave);
+            this.button3.MouseHover += new System.EventHandler(this.button3_MouseHover);
             // 
             // button2
             // 
-            this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Image = global::kyrsovaya.Properties.Resources.autocad_tasks;
             this.button2.Location = new System.Drawing.Point(41, 26);
+            this.button2.Margin = new System.Windows.Forms.Padding(0);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(118, 118);
+            this.button2.Size = new System.Drawing.Size(113, 113);
             this.button2.TabIndex = 0;
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.button2.MouseLeave += new System.EventHandler(this.button2_MouseLeave);
+            this.button2.MouseHover += new System.EventHandler(this.button2_MouseHover);
             // 
             // groupBox2
             // 
@@ -168,12 +183,11 @@
             // 
             // radioButton1
             // 
-            this.radioButton1.AutoSize = true;
             this.radioButton1.BackColor = System.Drawing.Color.Transparent;
             this.radioButton1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.radioButton1.Location = new System.Drawing.Point(41, 28);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(14, 13);
+            this.radioButton1.Size = new System.Drawing.Size(13, 13);
             this.radioButton1.TabIndex = 0;
             this.radioButton1.TabStop = true;
             this.radioButton1.UseVisualStyleBackColor = false;
@@ -206,7 +220,7 @@
             this.button8.MouseLeave += new System.EventHandler(this.button8_MouseLeave);
             this.button8.MouseHover += new System.EventHandler(this.button8_MouseHover);
             // 
-            // Form2
+            // Form_menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -221,7 +235,7 @@
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(1016, 664);
             this.MinimumSize = new System.Drawing.Size(1016, 664);
-            this.Name = "Form2";
+            this.Name = "Form_menu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Меню";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form2_FormClosed);

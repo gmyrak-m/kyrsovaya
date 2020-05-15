@@ -83,6 +83,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button7);
+            this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(1016, 664);
             this.MinimumSize = new System.Drawing.Size(1016, 664);
             this.Name = "Form_OKD";

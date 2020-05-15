@@ -19,7 +19,7 @@ namespace kyrsovaya
 
         private void Button7_Click(object sender, EventArgs e)
         {
-            Program.form2.Show();
+            Program.form_menu.Show();
             this.Hide();
 
         }

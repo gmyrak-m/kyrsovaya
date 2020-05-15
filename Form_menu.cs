@@ -12,9 +12,9 @@ using System.Drawing.Text;
 
 namespace kyrsovaya
 {
-    public partial class Form2 : Form
+    public partial class Form_menu : Form
     {
-        public Form2()
+        public Form_menu()
         {
             InitializeComponent();
           
@@ -48,12 +48,12 @@ namespace kyrsovaya
         {
             if (radioButton1.Checked)
             {
-                Program.form3.Show();
+                Program.form_author.Show();
                 this.Hide();
             }
             else if (radioButton2.Checked)
             {
-                Program.form4.Show();
+                Program.form_consult.Show();
                 this.Hide();
             }
             else MessageBox.Show("Сделайте выбор");
@@ -67,7 +67,7 @@ namespace kyrsovaya
 
         private void Button8_Click(object sender, EventArgs e)
         {
-            Program.form1.Show();
+            Program.form_main.Show();
             this.Hide();
 
         }
@@ -120,6 +120,56 @@ namespace kyrsovaya
         private void button8_MouseLeave(object sender, EventArgs e)
         {
             button8.Image = Properties.Resources.back;
+        }
+
+        private void button2_MouseHover(object sender, EventArgs e)
+        {
+            button2.Image = Properties.Resources.autocad_tasks_m;
+        }
+
+        private void button2_MouseLeave(object sender, EventArgs e)
+        {
+            button2.Image = Properties.Resources.autocad_tasks;
+        }
+
+        private void button3_MouseHover(object sender, EventArgs e)
+        {
+            button3.Image = Properties.Resources.tm_tasks_m;
+        }
+
+        private void button3_MouseLeave(object sender, EventArgs e)
+        {
+            button3.Image = Properties.Resources.tm_tasks;
+        }
+
+        private void button4_MouseHover(object sender, EventArgs e)
+        {
+            button4.Image = Properties.Resources.okd_tasks_m;
+        }
+
+        private void button4_MouseLeave(object sender, EventArgs e)
+        {
+            button4.Image = Properties.Resources.okd_tasks;
+        }
+
+        private void button5_MouseHover(object sender, EventArgs e)
+        {
+            button5.Image = Properties.Resources.animation_tasks_m;
+        }
+
+        private void button5_MouseLeave(object sender, EventArgs e)
+        {
+            button5.Image = Properties.Resources.animation_tasks;
+        }
+
+        private void button6_MouseHover(object sender, EventArgs e)
+        {
+            button6.Image = Properties.Resources.psm_tasks_m;
+        }
+
+        private void button6_MouseLeave(object sender, EventArgs e)
+        {
+            button6.Image = Properties.Resources.psm_tasks;
         }
     }
 }

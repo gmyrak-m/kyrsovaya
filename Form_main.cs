@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace kyrsovaya
 {
-    public partial class Form1 : Form
+    public partial class Form_main : Form
     {
         public System.ComponentModel.ComponentResourceManager resources;
 
-        public Form1()
+        public Form_main()
         {
             InitializeComponent();
-            resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_main));
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -34,7 +34,7 @@ namespace kyrsovaya
 
         private void Button2_Click(object sender, EventArgs e)
         {            
-            Program.form2.Show();
+            Program.form_menu.Show();
             this.Hide();
         }
 

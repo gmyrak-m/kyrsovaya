@@ -1,6 +1,6 @@
 ﻿namespace kyrsovaya
 {
-    partial class Form3
+    partial class Form_author
     {
         /// <summary>
         /// Required designer variable.
@@ -28,16 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.button7 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // Form3
+            // button7
+            // 
+            this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button7.FlatAppearance.BorderSize = 0;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Image = global::kyrsovaya.Properties.Resources.back;
+            this.button7.Location = new System.Drawing.Point(52, 493);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(91, 93);
+            this.button7.TabIndex = 6;
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button1_Click);
+            this.button7.MouseLeave += new System.EventHandler(this.button7_MouseLeave);
+            this.button7.MouseHover += new System.EventHandler(this.button7_MouseHover);
+            // 
+            // Form_author
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1000, 626);
+            this.Controls.Add(this.button7);
+            this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(1016, 664);
             this.MinimumSize = new System.Drawing.Size(1016, 664);
-            this.Name = "Form3";
+            this.Name = "Form_author";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Об Авторе";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form3_FormClosed);
@@ -46,5 +64,7 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.Button button7;
     }
 }

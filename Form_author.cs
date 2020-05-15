@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace kyrsovaya
 {
-    public partial class Form3 : Form
+    public partial class Form_author : Form
     {
-        public Form3()
+        public Form_author()
         {
             InitializeComponent();
         }
@@ -24,8 +24,19 @@ namespace kyrsovaya
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Program.form1.Show();
+            Program.form_menu.Show();
             this.Hide();
         }
+
+        private void button7_MouseHover(object sender, EventArgs e)
+        {
+            button7.Image = Properties.Resources.back_m;
+        }
+
+        private void button7_MouseLeave(object sender, EventArgs e)
+        {
+            button7.Image = Properties.Resources.back;
+        }
+
     }
 }

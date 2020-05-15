@@ -46,29 +46,59 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Form_consult_IKT.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Form_consult_IKT.Designer.cs">
+      <DependentUpon>Form_consult_IKT.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
+    <Compile Include="Form_consult_KA.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="Form_consult_KA.Designer.cs">
+      <DependentUpon>Form_consult_KA.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form3.cs">
+    <Compile Include="Form_consult_OKD.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form3.Designer.cs">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <Compile Include="Form_consult_OKD.Designer.cs">
+      <DependentUpon>Form_consult_OKD.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form4.cs">
+    <Compile Include="Form_consult_PSM.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form4.Designer.cs">
-      <DependentUpon>Form4.cs</DependentUpon>
+    <Compile Include="Form_consult_PSM.Designer.cs">
+      <DependentUpon>Form_consult_PSM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_consult_TM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_consult_TM.Designer.cs">
+      <DependentUpon>Form_consult_TM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_main.Designer.cs">
+      <DependentUpon>Form_main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_menu.Designer.cs">
+      <DependentUpon>Form_menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_author.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_author.Designer.cs">
+      <DependentUpon>Form_author.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_consult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_consult.Designer.cs">
+      <DependentUpon>Form_consult.cs</DependentUpon>
     </Compile>
     <Compile Include="Form_IKT.cs">
       <SubType>Form</SubType>
@@ -102,17 +132,32 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Form_consult_IKT.resx">
+      <DependentUpon>Form_consult_IKT.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <EmbeddedResource Include="Form_consult_KA.resx">
+      <DependentUpon>Form_consult_KA.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form3.resx">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <EmbeddedResource Include="Form_consult_OKD.resx">
+      <DependentUpon>Form_consult_OKD.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form4.resx">
-      <DependentUpon>Form4.cs</DependentUpon>
+    <EmbeddedResource Include="Form_consult_PSM.resx">
+      <DependentUpon>Form_consult_PSM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_consult_TM.resx">
+      <DependentUpon>Form_consult_TM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_main.resx">
+      <DependentUpon>Form_main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_menu.resx">
+      <DependentUpon>Form_menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_author.resx">
+      <DependentUpon>Form_author.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_consult.resx">
+      <DependentUpon>Form_consult.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_IKT.resx">
       <DependentUpon>Form_IKT.cs</DependentUpon>

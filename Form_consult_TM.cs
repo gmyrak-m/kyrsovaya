@@ -10,20 +10,14 @@ using System.Windows.Forms;
 
 namespace kyrsovaya
 {
-    public partial class Form_TM : Form
+    public partial class Form_consult_TM : Form
     {
-        public Form_TM()
+        public Form_consult_TM()
         {
             InitializeComponent();
         }
 
-        private void Button7_Click(object sender, EventArgs e)
-        {
-            Program.form_menu.Show();
-            this.Hide();
-        }
-
-        private void Form_TM_FormClosed(object sender, FormClosedEventArgs e)
+        private void Form_consult_TM_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
         }
@@ -36,6 +30,12 @@ namespace kyrsovaya
         private void button7_MouseLeave(object sender, EventArgs e)
         {
             button7.Image = Properties.Resources.back;
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Program.form_consult.Show();
+            this.Hide();
         }
     }
 }
