@@ -110,6 +110,7 @@ namespace kyrsovaya
         private void Form2_Load(object sender, EventArgs e)
         {
 
+
         }
 
         private void button8_MouseHover(object sender, EventArgs e)
